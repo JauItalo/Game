@@ -13,7 +13,7 @@ public class Jogo {
         Jogo.play();
     }
     public static void play(){
-        System.out.println("Informe o nivel da dificuldade desejado [1 ou 2]: ");
+        System.out.println("Informe o nivel da dificuldade desejado [ DE 1 A 12]: ");
         int nivel = Jogo.input.nextInt();
 
         Jogo.calculos = new Calculos(nivel);
