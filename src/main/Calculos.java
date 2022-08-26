@@ -19,9 +19,39 @@ public class Calculos {
         if (nivel == 1) {
             this.valor1 = random.nextInt(100);
             this.valor2 = random.nextInt(100);
-        } else {
+        } else if (nivel == 2) {
+            this.valor1 = random.nextInt(200);
+            this.valor2 = random.nextInt(200);
+        } else if (nivel == 3) {
+            this.valor1 = random.nextInt(300);
+            this.valor2 = random.nextInt(300);
+        } else if (nivel == 4) {
+            this.valor1 = random.nextInt(400);
+            this.valor2 = random.nextInt(400);
+        }  else if (nivel == 5) {
+            this.valor1 = random.nextInt(500);
+            this.valor2 = random.nextInt(500);
+        }else if (nivel == 6) {
+            this.valor1 = random.nextInt(600);
+            this.valor2 = random.nextInt(600);
+        }else if (nivel == 7) {
+            this.valor1 = random.nextInt(700);
+            this.valor2 = random.nextInt(700);
+        }else if (nivel == 8) {
+            this.valor1 = random.nextInt(800);
+            this.valor2 = random.nextInt(800);
+        }else if (nivel == 9) {
+            this.valor1 = random.nextInt(900);
+            this.valor2 = random.nextInt(900);
+        }else if (nivel == 10) {
             this.valor1 = random.nextInt(1000);
             this.valor2 = random.nextInt(1000);
+        } else if (nivel == 11) {
+            this.valor1 = random.nextInt(10000);
+            this.valor2 = random.nextInt(10000);
+        }else {
+            this.valor1 = random.nextInt(100000);
+            this.valor2 = random.nextInt(100000);
         }
     }
 
